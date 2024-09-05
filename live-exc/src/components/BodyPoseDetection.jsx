@@ -1,7 +1,6 @@
 import React, { useRef, useEffect, useState } from 'react';
 import { Pose } from '@mediapipe/pose';
 import { Camera } from '@mediapipe/camera_utils';
-import { detectPushup } from '../excerciseLogic/pushup';
 
 const PushupDetection = () => {
   const videoRef = useRef(null);
